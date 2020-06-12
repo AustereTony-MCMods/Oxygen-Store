@@ -1,0 +1,80 @@
+[
+  {
+    "persistent_id":1000,
+    "version_id":1001,
+    "type":"COMMAND",
+    "category":"Misc",
+    "name":"Set Day",
+    "description":"Sets world time\nto day",
+    "price":10,
+    "sale_price":0,
+    "available":true,
+    "can_be_gifted":true,
+    "max_purchases":-1,
+    "purchase_cooldown":0,
+    "widget_size":"SMALL",
+    "widget_texture":"placeholder_small.png",
+    "goods_icons":[
+      {
+        "type":"TEXTURE",
+        "x":66,
+        "y":2,
+        "icon":"icons/icon_16x16.png",
+        "tooltip":"For this icon used 16x16 texture. You can use \nrectangle texture with any size multiple of 16"
+      }
+    ],
+    "goods":[
+      "/time set 0"
+    ]
+  },
+  {
+    "persistent_id":1010,
+    "version_id":1011,
+    "type":"COMMAND",
+    "category":"Misc",
+    "name":"Set Night",
+    "description":"Sets world time\nto night",
+    "price":10,
+    "sale_price":0,
+    "available":true,
+    "can_be_gifted":true,
+    "max_purchases":-1,
+    "purchase_cooldown":0,
+    "widget_size":"SMALL",
+    "widget_texture":"placeholder_small.png",
+    "goods_icons":[
+      {
+        "type":"TEXTURE",
+        "x":66,
+        "y":2,
+        "icon":"icons/icon_64x64.png",
+        "tooltip":"For this icon used 64x64 texture."
+      }
+    ],
+    "goods":[
+      "/time set 12000"
+    ]
+  },
+  {
+    "persistent_id":1020,
+    "version_id":1021,
+    "type":"COMMAND",
+    "category":"Misc",
+    "name":"Clear Sky",
+    "description":"Stops rain",
+    "price":3,
+    "sale_price":0,
+    "available":true,
+    "can_be_gifted":true,
+    "max_purchases":-1,
+    "purchase_cooldown":0,
+    "widget_size":"SMALL",
+    "widget_texture":"placeholder_small.png",
+    "goods_icons":[
+
+    ],
+    "goods":[
+      "/weather clear"
+    ]
+  }
+]
