@@ -55,7 +55,7 @@ public class StoreMain {
     public static final String 
     MODID = "oxygen_store",
     NAME = "Oxygen: Store",
-    VERSION = "0.11.0",
+    VERSION = "0.11.1",
     VERSION_CUSTOM = VERSION + ":beta:0",
     GAME_VERSION = "1.12.2",
     VERSIONS_FORGE_URL = "https://raw.githubusercontent.com/AustereTony-MCMods/Oxygen-Store/info/mod_versions_forge.json";
